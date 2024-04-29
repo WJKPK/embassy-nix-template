@@ -4,7 +4,6 @@
 channel = "stable"
 components = [ "rustfmt" ]
 targets = [
-    "thumbv6m-none-eabi",
     "thumbv7em-none-eabihf",
-    "riscv32imac-unknown-none-elf",
+    "riscv32imc-unknown-none-elf",
 ]
